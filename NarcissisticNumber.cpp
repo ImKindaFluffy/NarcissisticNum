@@ -9,8 +9,8 @@ int main() {
 	std::cout << "Result: " << result << std::endl;
 }
 
-double Counter(int num) {
-	double counter = 0;
+int Counter(int num) {
+	int counter = 0;
 	while (num > 0) {
 		num = num / 10;
 		counter++;
